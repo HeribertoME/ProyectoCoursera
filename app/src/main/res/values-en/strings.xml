@@ -1,5 +1,5 @@
 <resources>
     <string name="app_name">Coursera Project</string>
-    <string name="saludo">Hello everyone!</string>
+    <string name="saludo">Welcome</string>
     <string name="btn_entrar">Enter</string>
 </resources>
