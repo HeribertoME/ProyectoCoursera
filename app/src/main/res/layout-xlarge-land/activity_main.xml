@@ -16,23 +16,23 @@
         android:textAppearance="?android:attr/textAppearanceSmall"
         android:text="@string/saludo"
         android:id="@+id/textView"
-        android:layout_alignParentTop="true"
+        android:textSize="@dimen/abc_text_size_display_4_material"
+        android:textColor="@color/icons"
+        android:layout_above="@+id/button"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="140dp"
-        android:textSize="@dimen/abc_text_size_display_2_material"
-        android:textColor="@color/icons"/>
+        android:layout_marginBottom="52dp" />
 
     <Button
         android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:text="@string/btn_entrar"
         android:id="@+id/button"
-        android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true"
         android:allowUndo="false"
         android:enabled="false"
         android:focusable="false"
         android:textColor="@color/icons"
         android:background="@drawable/btn_personal"
-        android:textSize="@dimen/abc_text_size_button_material" />
+        android:textSize="@dimen/abc_text_size_button_material"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
 </RelativeLayout>
